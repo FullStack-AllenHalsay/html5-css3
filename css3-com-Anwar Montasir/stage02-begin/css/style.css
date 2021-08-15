@@ -1,0 +1,111 @@
+/* Selectors */
+html{
+    font-size: 100%; 
+    /* 100% = 16px on most screens */
+}
+
+p{
+    color: olive;
+    font-size: 26px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+img{
+    width: 100%;
+}
+header{
+    background-color: orange;
+    width: 80%;
+    margin-left: 10%;
+}
+
+header p{
+    background-color: snow;
+    border-bottom: 1px solid gray;
+}
+
+footer{
+    background-color: lightcoral;
+}
+
+a{
+    color: darkblue;
+    background-color: peachpuff;
+    text-decoration: none;
+}
+
+a:visited{
+    color: seagreen;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:focus{
+    background-color: orange;
+    color: white;
+}
+
+/* img:hover{
+    border: 8px solid blue;
+    border-radius: 8px;
+} */
+
+/* ID Selectors */
+#education{
+    border: solid 3px red;
+}
+
+#education h3{
+    font-family: "Arial" sans-serif;
+    font-size: 32px;
+}
+
+#skills-list{
+    background-color: aliceblue;
+    padding: 36px;
+}
+
+ol li{
+    letter-spacing: 3px;
+    color: tomato;
+}
+
+ol li:first-child{
+    font-weight: bold;
+}
+
+ul li{
+    list-style: none;
+}
+/* Class Selector */
+.top-skill{
+    font-weight: bold;
+    background-color: teal;
+    color: papayawhip;
+}
+
+.date{
+    border: 2px solid steelblue;
+    border-radius: 12px;
+    padding: 6px;
+}
+
+.special{
+    text-transform: uppercase;
+    background-color: papayawhip;
+}
+
+.header-main{
+    width: 50%;
+    background-color: tomato;
+}
+
+#proud{
+    font-size: 48px;
+    background-color: firebrick;
+}
