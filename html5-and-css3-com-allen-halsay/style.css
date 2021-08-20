@@ -8,6 +8,7 @@ html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, the
     padding: 0;
     margin: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 /* remember to define focus styles! */
@@ -48,16 +49,67 @@ blockquote, q {
     quotes: "" "";
 }
 
+.one-paragraph {
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    border: 5px solid peru;
+}
+
 div {
+    width: 100%;
+    max-width: 400px;
     background-color: lightgrey;
-    width: 300px;
     border: 15px solid green;
     padding: 50px;
-    margin: auto;
     box-sizing: border-box;
+}
+
+#allen {
+    padding: 10px;
+    border: 5px solid orangered;
+    background-color: orchid;
+    box-sizing: border-box;
+    font-size: 0.9rem;
 }
 
 h2 {
     font-weight: bold;
-    font-size: 1.8em;
+    font-size: 1.8rem;
+}
+
+section {
+    min-height: 25vh;
+    background-color: paleturquoise;
+    display: inline;
+}
+
+.navigation ul li {
+    display: inline-block;
+    width: 200px;
+    background-color: yellow;
+}
+
+img, #allen {
+    width: 100%;
+    max-width: 400px;
+}
+
+figure {
+    position: relative;
+    margin: 0;
+    max-width: 400px;
+    border: 2px solid tomato;
+    box-sizing: border-box;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 20px;
+    font-size: 2rem;
+    background-color: yellow;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 10px;
 }
