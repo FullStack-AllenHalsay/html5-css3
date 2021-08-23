@@ -18,15 +18,15 @@ html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, the
 }
 
 body {
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
     background: white;
     line-height: 1;
     color: black;
 }
 
-ol, ul {
-    list-style: none;
-}
-
+*/
 /* tables still need cellspacing="0" in the markup */
 
 table {
@@ -49,21 +49,86 @@ blockquote, q {
     quotes: "" "";
 }
 
+.section-main {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    max-width: 800px;
+    background-color: tomato;
+}
+
+.title {
+    width: 100%;
+    max-width: 800px;
+    font-size: 3rem;
+    text-align: center;
+    background-color: violet;
+    padding: 10px 0 10px;
+}
+
+.header-main {
+    background-color: cadetblue;
+    position: relative;
+}
+
+.nav-header {
+    position: relative;
+    background-color: chartreuse;
+    display: block;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: coral;
+    border: 1px solid black;
+    margin: 15px 15px;
+    padding: 10px 5px 10px;
+    font-size: 1.7rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+}
+
 .one-paragraph {
     width: 100%;
-    max-width: 400px;
+    max-width: 800px;
     box-sizing: border-box;
     border: 5px solid peru;
 }
 
-div {
+.container-section {
     width: 100%;
+    max-width: 800px;
+    background-color: coral;
+    display: inline-block;
+}
+
+.div-section {
+    width: 50%;
     max-width: 400px;
-    background-color: lightgrey;
-    border: 15px solid green;
-    padding: 50px;
+    /* background-color: cornflowerblue; */
+    display: inline-block;
+    text-align: center;
+    margin: 4rem .5rem 1rem;
     box-sizing: border-box;
 }
+
+.div-section p {
+    font-size: 1rem;
+}
+
+.float-left {
+    width: 50%;
+    max-width: 400px;
+    display: inline-block;
+    float: left;
+}
+
+.img-car {}
 
 #allen {
     padding: 10px;
@@ -71,6 +136,7 @@ div {
     background-color: orchid;
     box-sizing: border-box;
     font-size: 0.9rem;
+    margin: auto;
 }
 
 h2 {
@@ -84,12 +150,6 @@ section {
     display: inline;
 }
 
-.navigation ul li {
-    display: inline-block;
-    width: 200px;
-    background-color: yellow;
-}
-
 img, #allen {
     width: 100%;
     max-width: 400px;
@@ -97,7 +157,7 @@ img, #allen {
 
 figure {
     position: relative;
-    margin: 0;
+    margin: auto;
     max-width: 400px;
     border: 2px solid tomato;
     box-sizing: border-box;
